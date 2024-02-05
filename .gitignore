@@ -1,0 +1,13 @@
+# Not ignoring and pushing VSCode settings folder
+# as it's considered a main tool for this repo development.
+# 
+# **/.vscode
+
+**/.cache
+**/.data
+**/.DS_Store
+**/.idea
+**/target
+tmp
+tmp.*
+tmp/
