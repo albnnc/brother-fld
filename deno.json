@@ -1,9 +1,13 @@
 {
+  "exclude": [
+    "**/.git",
+    "**/target"
+  ],
+  "importMap": "./import_map.json",
+  "lock": false,
   "tasks": {
     "fmt": "dprint fmt",
     "fmt:check": "dprint check",
     "lint:check": "deno lint"
-  },
-  "lock": false,
-  "exclude": ["**/.git", "**/target"]
+  }
 }
